@@ -21,7 +21,14 @@ print(gizem.type)
 
 
 
-//let zeynep = User(nameInput: <#String#>, ageInput: <#Int#>, jobInput: <#String#>)
+let zeynep = SpecialUser(name: "Zeynep", age: 70, job: "Teacher", type: UserType.NormalUser)
+
+print(zeynep.name)
+
+
+zeynep.newFunction()
+
+zeynep.exampleFuction()
 
 
 

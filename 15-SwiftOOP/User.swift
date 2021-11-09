@@ -15,9 +15,9 @@ enum UserType {
 
 class User {
     
-    var name : String
-    var age : Int
-    var job : String
+    var name :String
+    var age :Int
+    var job :String
     var type : UserType
     
     
