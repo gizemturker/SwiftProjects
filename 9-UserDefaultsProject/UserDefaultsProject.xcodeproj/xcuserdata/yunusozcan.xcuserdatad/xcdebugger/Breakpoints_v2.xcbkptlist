@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3C5E1791-C0AF-46B0-8438-F00A3175BAA7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC9A6E3B-EDAC-4782-B204-A22462574B99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserDefaultsProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BC9A6E3B-EDAC-4782-B204-A22462574B99 - 8cfe68bc6e0ed344"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserDefaultsProject.ViewController.notTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "UserDefaultsProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunusozcan/GizemTurkerProjects/UserDefaultsProject/UserDefaultsProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "BC9A6E3B-EDAC-4782-B204-A22462574B99 - a752b255194cbfb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserDefaultsProject.ViewController.notTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "UserDefaultsProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunusozcan/GizemTurkerProjects/UserDefaultsProject/UserDefaultsProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "BC9A6E3B-EDAC-4782-B204-A22462574B99 - d0fb1024e4537732"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserDefaultsProject.ViewController.notTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "UserDefaultsProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunusozcan/GizemTurkerProjects/UserDefaultsProject/UserDefaultsProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "BC9A6E3B-EDAC-4782-B204-A22462574B99 - b209dd8ed199f7ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserDefaultsProject.ViewController.notTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "UserDefaultsProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunusozcan/GizemTurkerProjects/UserDefaultsProject/UserDefaultsProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "BC9A6E3B-EDAC-4782-B204-A22462574B99 - 755cdb102d6f35be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserDefaultsProject.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UserDefaultsProject.ViewController"
+                  moduleName = "UserDefaultsProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunusozcan/GizemTurkerProjects/UserDefaultsProject/UserDefaultsProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "BC9A6E3B-EDAC-4782-B204-A22462574B99 - 3cd45fb586fa2d7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserDefaultsProject.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UserDefaultsProject.ViewController&gt;"
+                  moduleName = "UserDefaultsProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunusozcan/GizemTurkerProjects/UserDefaultsProject/UserDefaultsProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
