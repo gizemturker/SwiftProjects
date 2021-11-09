@@ -19,6 +19,8 @@ class User {
     var age :Int
     var job :String
     var type : UserType
+    private var gender : String = ""
+    private var hairColor : String = "Black"
     
     
     
@@ -33,4 +35,16 @@ class User {
     func exampleFuction(){
         print("function example called")
     }
+    
+    private func testFunction() {
+        print("test")
+    }
+    //access levels
+    // open, public, internal, fileprivate, private
+    
+    func getHairColor() -> String {
+        return self.hairColor
+    }
+    
+    
 }

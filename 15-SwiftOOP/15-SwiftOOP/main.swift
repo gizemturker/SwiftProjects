@@ -17,7 +17,10 @@ print(gizem.job)
 
 gizem.exampleFuction()
 
+
 print(gizem.type)
+
+print(gizem.getHairColor())
 
 
 
