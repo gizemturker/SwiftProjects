@@ -13,6 +13,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var tableView: UITableView!
     
+    var cityArray  = [City]()
+    var userChoice : City?
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,17 +36,35 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let antalya = City(name: "Antalya", region: "Akdeniz", image: UIImage(named: "antalya")!)
         
-        let cityArray = [istanbul,ankara,izmir,diyarbakir,antalya]
+        
+        
+        cityArray = [istanbul,ankara,izmir,diyarbakir,antalya]
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return cityArray.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = "test"
+        cell.textLabel?.text = cityArray[indexPath.row].name
         return cell
     }
-}
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        userChoice = cityArray[indexPath.row]
+        performSegue(withIdentifier: "toDetailsVC", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDetailsVC" {
+            let destinationVC = segue.destination as! DetailsViewController
+            destinationVC.chooseCity = userChoice
+            
+        }
+        
+    }
 
+
+    }
