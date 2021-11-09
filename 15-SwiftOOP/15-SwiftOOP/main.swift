@@ -7,11 +7,17 @@
 
 import Foundation
 
-let gizem = User(name: "Gizem", age: 30, job: "Software")
+let gizem = User(name: "Gizem", age: 30, job: "Software", type: UserType.AdminUser)
 
 print(gizem.job)
 
 gizem.job = "Mechanical"
+
+print(gizem.job)
+
+gizem.exampleFuction()
+
+print(gizem.type)
 
 
 
